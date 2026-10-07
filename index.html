@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-tema="escuro">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Gabriel Luiz | Técnico em Informática</title>
+<meta name="description" content="Portfólio de Gabriel Luiz, estudante de Técnico em Informática no Cotemig Floresta.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="topo">
+  <a href="#sec-topo" class="marca">Gabriel.&lt;DEV&gt;</a>
+  <button class="botao-menu" id="botao-menu" aria-label="Abrir menu" aria-expanded="false">
+    <span></span><span></span>
+  </button>
+  <nav class="menu-principal" id="menu-principal">
+    <a href="#sec-topo">Principal</a>
+    <a href="#sec-habilidades">Habilidades</a>
+    <a href="#sec-projetos">Projetos</a>
+    <a href="#sec-contato">Contato</a>
+    <button class="botao-tema" id="botao-tema" aria-label="Alternar tema">
+      <span class="icone-tema" id="icone-tema">🌙</span>
+    </button>
+  </nav>
+</header>
+
+<main>
+  <section class="sec-topo" id="sec-topo">
+    <p class="topo-apoio">Olá, eu sou :</p>
+    <h1 class="titulo-nome">Gabriel Luiz</h1>
+    <p class="titulo-digitado"><span id="texto-digitado"></span><span class="cursor"></span></p>
+    <p class="topo-texto">Tenho 16 anos, estudo no Cotemig Floresta e estou aprendendo a transformar ideias em sites e sistemas.</p>
+    <div class="topo-botoes">
+      <a href="#sec-projetos" class="botao botao-cheio">Ver projetos</a>
+      <a href="#sec-contato" class="botao botao-vazio">Contato</a>
+    </div>
+  </section>
+
+  <section class="sec-sobre" id="sec-sobre">
+    <div class="sobre-grade">
+      <div class="sobre-foto">
+        <img src="biel.png" alt="">
+      </div>
+      <div class="sobre-texto">
+        <h2 class="titulo-secao">Sobre Mim :</h2>
+        <p>Sou o Gabriel, tenho 16 anos e faço o curso Técnico em Informática no Cotemig. Gosto de entender como as coisas funcionam por dentro, desde a tela que a pessoa vê até o banco de dados que guarda tudo.</p>
+        <p>Até agora aprendi o básico de HTML, CSS, MySQL e C#, e uso o Figma para desenhar telas antes de programar. Também uso o Google Planilhas para organizar dados. Estou sempre praticando para evoluir a cada projeto da escola.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec-habilidades" id="sec-habilidades">
+    <h2 class="titulo-secao">Habilidades :</h2>
+    <div class="grade-habilidades">
+      <article class="cartao-habilidade">
+        <div class="habilidade-cabecalho">
+          <img class="icone-habilidade" src="arquivo-html.png" alt="Ícone HTML">
+          <h3>HTML 5 :</h3>
+        </div>
+        <p>Estrutura de páginas, formulários e textos organizados.</p>
+        <div class="barra-nivel"><span style="width: 60%"></span></div>
+      </article>
+      <article class="cartao-habilidade">
+        <div class="habilidade-cabecalho">
+          <img class="icone-habilidade" src="arquivo-css.png" alt="Ícone CSS">
+          <h3>CSS 3 :</h3>
+        </div>
+        <p>Cores, espaçamentos e layouts que funcionam no celular.</p>
+        <div class="barra-nivel"><span style="width: 55%"></span></div>
+      </article>
+      <article class="cartao-habilidade">
+        <div class="habilidade-cabecalho">
+          <img class="icone-habilidade" src="logotipo-csharp.png" alt="Ícone C#">
+          <h3>C# :</h3>
+        </div>
+        <p>Lógica de programação e pequenos programas.</p>
+        <div class="barra-nivel"><span style="width: 45%"></span></div>
+      </article>
+      <article class="cartao-habilidade">
+        <div class="habilidade-cabecalho">
+          <img class="icone-habilidade" src="mysql.png" alt="Ícone MySQL">
+          <h3>MYSQL :</h3>
+        </div>
+        <p>Criação de tabelas, consultas e relacionamentos simples.</p>
+        <div class="barra-nivel"><span style="width: 50%"></span></div>
+      </article>
+      <article class="cartao-habilidade">
+        <div class="habilidade-cabecalho">
+          <img class="icone-habilidade" src="figma.png" alt="Ícone Figma">
+          <h3>FIGMA :</h3>
+        </div>
+        <p>Protótipos e desenho de telas antes de programar.</p>
+        <div class="barra-nivel"><span style="width: 55%"></span></div>
+      </article>
+      <article class="cartao-habilidade">
+        <div class="habilidade-cabecalho">
+          <img class="icone-habilidade" src="planilhas-do-google.png" alt="Ícone Google Planilhas">
+          <h3>PLANILHAS :</h3>
+        </div>
+        <p>Tabelas, fórmulas e organização de dados.</p>
+        <div class="barra-nivel"><span style="width: 65%"></span></div>
+      </article>
+    </div>
+  </section>
+
+  <section class="sec-projetos" id="sec-projetos">
+    <h2 class="titulo-secao">Projetos :</h2>
+    <div class="lista-projetos">
+      <div class="linha-projeto">
+        <div class="projeto-info">
+          <span class="projeto-tecnologias">html &amp; css :</span>
+          <h3>Tabela Periódica</h3>
+          <p>Uma tabela periódica em HTML e CSS para organizar os elementos químicos em colunas e linhas precisas. Além disso, aplica cores personalizadas por categoria e efeitos visuais ao passar o mouse.</p>
+        </div>
+        <a href="projetos/tabela-periodica.zip" class="botao-download" download>Download</a>
+      </div>
+      <div class="linha-projeto">
+        <div class="projeto-info">
+          <span class="projeto-tecnologias">html &amp; css :</span>
+          <h3>E-commerce</h3>
+          <p>Um e-commerce de jogos estilo Steam em HTML e CSS que organiza o catálogo em grelha, com capas, preços e efeitos visuais interativos.</p>
+        </div>
+        <a href="projetos/e-commerce.zip" class="botao-download" download>Download</a>
+      </div>
+      <div class="linha-projeto">
+        <div class="projeto-info">
+          <span class="projeto-tecnologias">html &amp; css :</span>
+          <h3>Landing Page</h3>
+          <p>Uma landing page para o meu e-commerce de jogos que exibe o catálogo com grid de destaque, capas, preços e chamadas para ação.</p>
+        </div>
+        <a href="projetos/landing-page.zip" class="botao-download" download>Download</a>
+      </div>
+    </div>
+    <a href="https://github.com/gabrielfil12346-hash" class="link-github link-github-projetos" target="_blank" rel="noopener">Ver mais projetos no meu GitHub</a>
+  </section>
+
+  <section class="sec-contato" id="sec-contato">
+    <h2 class="titulo-secao">Contato</h2>
+    <p class="contato-texto">Quer conversar ou tem uma ideia de projeto? Me mande uma mensagem.</p>
+    <form class="formulario" id="formulario" novalidate>
+      <div class="campo">
+        <label for="campo-nome">Nome:</label>
+        <input type="text" id="campo-nome" name="nome" autocomplete="name" required>
+      </div>
+      <div class="campo">
+        <label for="campo-telefone">Telefone:</label>
+        <input type="tel" id="campo-telefone" name="telefone" placeholder="(00) 00 00000 0000" maxlength="17" autocomplete="tel" required>
+      </div>
+      <div class="campo">
+        <label for="campo-email">E-mail:</label>
+        <input type="email" id="campo-email" name="email" autocomplete="email" required>
+      </div>
+      <div class="campo">
+        <label for="campo-mensagem">Mensagem:</label>
+        <textarea id="campo-mensagem" name="mensagem" rows="6" required></textarea>
+      </div>
+      <button type="submit" class="botao-enviar">
+        Enviar Mensagem
+        <img src="aviao-de-papel.png" alt="" class="icone-enviar">
+      </button>
+    </form>
+  </section>
+</main>
+
+<footer class="rodape">
+  <a href="https://github.com/gabrielfil12346-hash" class="link-github" target="_blank" rel="noopener">GitHub</a>
+  <p class="rodape-creditos">Gabriel Luiz Ferreira dos Santos - 2026</p>
+</footer>
+
+<button class="botao-topo" id="botao-topo" aria-label="Voltar ao topo">↑</button>
+
+<script src="script.js"></script>
+</body>
+</html>
